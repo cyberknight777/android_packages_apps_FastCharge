@@ -45,7 +45,7 @@ public class FastChargeConfig {
 
 	Resources res = context.getResources();
 
-	config_FastChargePath = res.getString(com.android.settingslib.collapsingtoolbar.R.string.config_FastChargePath);
+	config_FastChargePath = res.getString(com.android.fastcharge.R.string.config_FastChargePath);
     }
 
     public String getFastChargePath() {
